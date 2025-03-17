@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Container from '../common/Container'
+import bannerImg from "../../images/illustration.png"
+import Button from '../common/Button'
 
 const Banner = () => {
   return (
@@ -10,10 +12,10 @@ const Banner = () => {
     <div>
     <h1>Lessons and insights <br/> <bg>from 8 years</bg> </h1>
     <p>Where to grow your business as a photographer: site or social media?</p>
-    <button>Register</button>
+    <Button>Register</Button>
     </div>
     <div>
-    <img src='../../../Illustration.png' />
+    <img src={bannerImg} />
     </div>
 </Flex>
 </Container>
@@ -53,14 +55,4 @@ font-weight: 400;
 line-height: 24px; 
 margin-top:16px;
 }
-
-button{
-    margin-top:32px;
-    padding:14px 32px;
-    background-color:#4CAF4F;
-    border:none;
-    border-radius:5px;
-    color:#fff;
-}
-
 `

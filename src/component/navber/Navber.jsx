@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Container from "../common/Container"
 import NavMenu from "./NavMenu";
+import Logo from "../../images/Logo.png"
 
 function Navber(){
     return(
@@ -8,7 +9,7 @@ function Navber(){
 <Header>
 <Container>
         <Flex>
-            <img src="../../../Logo.png" />
+            <img src={Logo} />
             <NavMenu/>
             <Btngroup>
                 <span>Login</span>
