@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import SectionHeading from '../common/SectionHeading'
 import SectionPera from '../common/SectionPera'
+import CommmunityBoxes from './CommmunityBoxes'
 
 const Community = () => {
   return (
@@ -12,6 +13,7 @@ const Community = () => {
         <SectionPera>
         Who is Nextcent suitable for?
         </SectionPera>
+        <CommmunityBoxes/>
     </Section>
   )
 }
