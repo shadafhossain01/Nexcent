@@ -6,6 +6,7 @@ import Community from "./component/community/Community"
 import { Unlock } from "./component/unlock/Unlock"
 import Calender from "./component/calender/Calender"
 import Review from "./component/review/Review"
+import Detail from "./component/detail/Detail"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Client/>
     <Community/>
     <Unlock/>
+    <Detail/>
     <Calender/>
     <Review/>
     </>
