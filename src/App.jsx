@@ -7,6 +7,7 @@ import { Unlock } from "./component/unlock/Unlock"
 import Calender from "./component/calender/Calender"
 import Review from "./component/review/Review"
 import Detail from "./component/detail/Detail"
+import Marketing from "./component/marketing/Marketing"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
     <Detail/>
     <Calender/>
     <Review/>
+    <Marketing/>
     </>
   )
 }
