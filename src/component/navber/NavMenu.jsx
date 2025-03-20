@@ -29,11 +29,11 @@ const Order=styled.li`
 margin:0px 15px;
 list-style-type:none;
 cursor:pointer;
-font-family: Inter;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 24px;
+color:#18191F;
+font-family: "Inter", sans-serif;
 
 &:hover{
     color:green;

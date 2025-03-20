@@ -46,11 +46,12 @@ background: #4CAF4F;
 
 span{
    color: #4CAF4F;
-   font-family: Inter;
+   font-family: "Inter", sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 20px;
+margin-right:24px;
 }
 
 

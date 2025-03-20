@@ -35,11 +35,12 @@ justify-content:space-between;
 display:flex;
 
 h1{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
 font-size: 64px;
 font-style: normal;
 font-weight: 600;
 line-height: 76px;
+color:#4D4D4D;
 }
 
 bg{

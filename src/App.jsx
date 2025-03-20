@@ -8,6 +8,7 @@ import Calender from "./component/calender/Calender"
 import Review from "./component/review/Review"
 import Detail from "./component/detail/Detail"
 import Marketing from "./component/marketing/Marketing"
+import Footer from "./component/footer/Footer"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     <Calender/>
     <Review/>
     <Marketing/>
+    <Footer/>
     </>
   )
 }
